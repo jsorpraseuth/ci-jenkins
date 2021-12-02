@@ -1,2 +1,2 @@
 # ci-jenkins
-Setting up continuous integration using Jenkins
+Setting up continuous integration using Jenkins on AWS
