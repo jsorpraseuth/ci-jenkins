@@ -22,6 +22,7 @@ import org.psnbtech.util.Clock;
  *
  */
 
+// another comment
 public class Game extends JFrame {
 	
 	/**
