@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './gradlew build'
+                sh './mvnw build'
             }
         }
         stage('Test') {
             steps {
-                sh './gradlew check'
+                sh './mvnw check'
             }
         }
     }
