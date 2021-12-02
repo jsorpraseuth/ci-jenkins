@@ -19,7 +19,6 @@ public class testGame {
     @Test
     public void testResetGame() throws Exception {
         System.out.println("Test reset game");
-        assertEquals(0, )
     }
 
     @Test
