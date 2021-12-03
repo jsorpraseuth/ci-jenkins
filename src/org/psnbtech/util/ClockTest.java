@@ -13,4 +13,11 @@ public class ClockTest {
         Assertions.assertEquals(0, clock.elapsedCycles, "Expected elapsed cycles did not match actual elapsed cycles.")
     }
 
+    @Test
+    public void testPaused() {
+        System.out.println("Running paused test");
+        clock.setPaused(true);
+        Assertions.assertEquals(true, clock.isPaused(), "Expected paused did not match actual paused.")
+    }
+
 }

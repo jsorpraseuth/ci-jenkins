@@ -54,10 +54,17 @@
         <property name="user.name" value="moss"/>
         <property name="user.timezone" value="America/Toronto"/>
     </properties>
-    <testcase name="testModel()" classname="CarTest" time="0.023">
+    <testcase name="testResetClock()" classname="ClockTest" time="0.023">
         <system-out><![CDATA[
             unique-id: [engine:junit-jupiter]/[class:ClockTest]/[method:testResetClock()]
             display-name: testResetClock()
+            ]]>
+        </system-out>
+    </testcase>
+    <testcase name="testPaused()" classname="ClockTest" time="0.006">
+        <system-out><![CDATA[
+            unique-id: [engine:junit-jupiter]/[class:ClockTest]/[method:testPaused()]
+            display-name: testPaused()
             ]]>
         </system-out>
     </testcase>
