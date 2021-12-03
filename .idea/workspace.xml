@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a75541a-23a2-41fb-8ecc-f6573e56c1d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/WorldPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Asteroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/AsteroidSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/util/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/util/Vector2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/GameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Jenkinsfile" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="21kjUiS3A7FX1OR3MmV2vpNXR9g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +49,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.sampleTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sunot\Desktop\ci-jenkins\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GameTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -46,19 +66,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ci-jenkins" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="sampleTest" />
+      <option name="PACKAGE_NAME" value="src.org.psnbtech" />
+      <option name="MAIN_CLASS_NAME" value="src.org.psnbtech.GameTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sampleTest.testExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.testExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ci-jenkins" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="sampleTest" />
+      <option name="PACKAGE_NAME" value="src.org.psnbtech" />
+      <option name="MAIN_CLASS_NAME" value="src.org.psnbtech.GameTest" />
       <option name="METHOD_NAME" value="testExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -67,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.sampleTest" />
-        <item itemvalue="JUnit.sampleTest.testExample" />
+        <item itemvalue="JUnit.GameTest" />
+        <item itemvalue="JUnit.GameTest.testExample" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638491996946</updated>
-      <workItem from="1638491999954" duration="420000" />
+      <workItem from="1638491999954" duration="1906000" />
     </task>
     <servers />
   </component>

@@ -1,21 +1,22 @@
+package src.org.psnbtech;
+
+import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class sampleTest {
+public class GameTest {
 
     @Test
     public void testExample() {
         int a = 1;
         int b = 2;
-        assertTrue(a + b == 3);
+        Assert.assertTrue(a + b == 3);
     }
 
     @Test
     public void testExampleTwo() {
         int a = 4;
         int b = 2;
-        assertTrue(a - b == 2);
+        Assert.assertTrue(a - b == 2);
     }
 
 }
