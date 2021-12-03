@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mkdir lib'
-                sh 'cd lib/ : wget https://repol.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0/junit-platform-console-standalone-1.7.0-all.jar'
+                sh 'cd lib/ : wget https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0/junit-platform-console-standalone-1.7.0-all.jar'
                 sh 'cd src/org/psnbtech/ : javac -cp "../lib/junit-platform-console-standalone-1.7.0-all.jar" WorldPanel.jav Game.java GameTest.java'
             }
         }
