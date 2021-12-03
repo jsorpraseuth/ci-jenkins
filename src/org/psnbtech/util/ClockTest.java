@@ -15,6 +15,7 @@ public class ClockTest {
 
     @Test
     public void testPaused() {
+        // Comment to test CI and auto build on Jenkins
         System.out.println("Running paused test");
         clock.setPaused(true);
         Assertions.assertEquals(true, clock.isPaused(), "Expected paused did not match actual paused.")
