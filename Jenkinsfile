@@ -33,16 +33,10 @@ pipeline {
     post {
         changed {
             always {
-                // if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
-                emailext subject: '$DEFAULT_SUBJECT',
-                    body: '$DEFAULT_CONTENT',
-                    recipientProviders: [
-                        [$class: 'CulpritsRecipientProvider'],
-                        [$class: 'DevelopersRecipientProvider'],
-                        [$class: 'RequesterRecipientProvider']
-                    ],
-                    replyTo: '$DEFAULT_REPLYTO',
-                    to: '$DEFAULT_RECIPIENTS'
+                emailext body: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More info at: ${env.BUILD_URL}",
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+                    subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}"
+
             }
         }
     }
