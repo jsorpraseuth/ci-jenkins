@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a75541a-23a2-41fb-8ecc-f6573e56c1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/WorldPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Asteroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/AsteroidSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/util/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/util/Vector2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/org/psnbtech/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638491996946</updated>
-      <workItem from="1638491999954" duration="1906000" />
+      <workItem from="1638491999954" duration="2105000" />
     </task>
     <servers />
   </component>
