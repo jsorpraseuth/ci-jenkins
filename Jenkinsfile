@@ -20,14 +20,14 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'cd src/org/psnbtech/ : java -jar ../lib/junit-platform-console.standalone-1.7.0-all.jar -cp "." --select-class GameTest --reports-dir="reports"'
+                sh 'cd src/org/psnbtech/ : java -jar ../lib/junit-platform-console.standalone-1.7.0-all.jar -cp "." --select-class GameTest.java --reports-dir="reports"'
                 junit 'src/reports/ *-jupiter.xml'
             }
         }
 
         stage('Deploy') {
             steps {
-                sh 'cd src/org/psnbtech/ : java Game'
+                sh 'cd src/org/psnbtech/ : java Game.java'
             }
         }
 
