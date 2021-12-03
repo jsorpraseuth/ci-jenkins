@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cd src/org/psnbtech/util/ : java -jar ../lib/junit-platform-console.standalone-1.7.0-all.jar -cp "." --select-class ClockTest --reports-dir="reports"'
-                junit 'src/reports/*-jupiter.xml'a
+                junit 'src/reports/*-jupiter.xml'
             }
         }
 
@@ -33,7 +33,8 @@ pipeline {
     post {
         changed {
             script {
-                if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
+                always {
+               // if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
                     // Send an email only if the build status has changed from green/unstable to red
                     emailext subject: '$DEFAULT_SUBJECT',
                         body: '$DEFAULT_CONTENT',
