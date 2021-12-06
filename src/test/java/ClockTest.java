@@ -1,5 +1,3 @@
-package org.psnbtech.util;
-
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
