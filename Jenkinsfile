@@ -19,7 +19,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cd src/org/psnbtech/util/ : java -jar ../lib/junit-platform-console.standalone-1.7.0-all.jar -cp "." --select-class ClockTest --reports-dir="reports"'
-                junit 'src/reports/*-jupiter.xml' skipPublishingChecks: true
+                junit 'src/reports/*-jupiter.xml'
             }
         }
 
