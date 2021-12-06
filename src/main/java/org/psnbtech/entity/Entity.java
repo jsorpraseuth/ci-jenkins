@@ -1,9 +1,9 @@
-package src.org.psnbtech.entity;
+package org.psnbtech.entity;
 
 import java.awt.Graphics2D;
 
-import src.org.psnbtech.Game;
-import src.org.psnbtech.WorldPanel;
+import org.psnbtech.Game;
+import org.psnbtech.WorldPanel;
 import org.psnbtech.util.Vector2;
 
 /**
