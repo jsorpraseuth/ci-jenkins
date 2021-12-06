@@ -13,9 +13,9 @@ public class ClockTest {
 
     @Test
     public void simpleTestFail() {
-        // force fail again
-        //int a = 2;
-        int a = 1;
+        // pass
+        int a = 2;
+        //int a = 1;
         int b = 2;
         assertTrue(a + b == 4);
     }
